@@ -1,3 +1,5 @@
+import AuthProvider from './AuthProvider.jsx';
+
 const AppHeader = () => (
   <>
     <h1
@@ -7,8 +9,7 @@ const AppHeader = () => (
     >
       AppHeader
     </h1>
-    <button className={'btn'}>Login</button>
-    <button className={'btn btn--accent'}>Registration</button>
+    <AuthProvider />
   </>
 );
 
